@@ -10,9 +10,6 @@ public class RemoveBullet : MonoBehaviour
         {
             Destroy(coll.gameObject);
         }
-        if (coll.gameObject.tag.Equals("BULLET"))
-        {
-            Destroy(coll.gameObject);
-        }
+        
     }
 }
