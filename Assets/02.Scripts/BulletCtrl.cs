@@ -12,5 +12,6 @@ public class BulletCtrl : MonoBehaviour
         rb = GetComponent<Rigidbody>();
 
         rb.AddForce(transform.forward * force);
+        
     }
 }
